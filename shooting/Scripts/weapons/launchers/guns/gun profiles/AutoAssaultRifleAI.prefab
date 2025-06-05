@@ -48,9 +48,9 @@ MonoBehaviour:
   bulletPrefabLifeTime: 3
   spreadOverTimeModifier: 0
   clipSize: 10000
-  shootingDelay: 0.08
+  shootingDelay: 0.18
   spreadIntensity: 0
-  recoilX: 0.19
+  recoilX: 0.13
   recoilY: -0.2
   recoilMultiplierX: 0.0006
   recoilMultiplierY: 0.0012
