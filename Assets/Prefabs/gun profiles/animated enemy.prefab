@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7de5d204828094c488cc7a892216fe1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 5
   npcGunController: {fileID: 8006798834358191203}
   gunSettings: {fileID: 1585871634850131107, guid: 08ee746bd4994d9458d117c8ba3120da, type: 3}
   npcMovementController: {fileID: 1482510709997612239}
