@@ -43,6 +43,7 @@ public class NpcGunController : MonoBehaviour
             {       
                 
                 GetComponentInChildren<Gun>().FireWeapon(this.npcGunTargetingData.targetDirection);
+                this.npcData.shockwaveSource.Play();
             }
     }
 

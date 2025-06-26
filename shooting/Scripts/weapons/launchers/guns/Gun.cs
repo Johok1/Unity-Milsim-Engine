@@ -26,9 +26,12 @@ public class Gun : MonoBehaviour
 
     private bool allowReset = true;
 
+    private GunSettings gunSettings;
     
 
     public void SetGunSettings(GunSettings gunSettings){
+
+        this.gunSettings = gunSettings;
          reloadTime = gunSettings.reloadTime;
 
         bulletPrefabLifeTime = gunSettings.bulletPrefabLifeTime;
@@ -107,6 +110,8 @@ public class Gun : MonoBehaviour
         SetBulletFired();
 
         UpdateRecoil();
+
+        
        
 
         GameObjectGarbageCollector.Instance.AddToGarbageBin(firedBullet,bulletPrefabLifeTime);

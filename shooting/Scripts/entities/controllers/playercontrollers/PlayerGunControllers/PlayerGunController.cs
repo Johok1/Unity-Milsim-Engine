@@ -40,6 +40,7 @@ public class PlayerGunController : MonoBehaviour
         if (GetComponentInChildren<Gun>().isShotReady())
         {
             GetComponentInChildren<Gun>().FireWeapon(this.playerGunData.bulletSpawn.forward);
+            playerData.shockwaveSource.Play();
         }
     }    
 

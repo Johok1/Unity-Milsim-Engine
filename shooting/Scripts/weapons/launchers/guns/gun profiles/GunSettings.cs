@@ -20,4 +20,6 @@ public class GunSettings : MonoBehaviour
   public float recoilMultiplierY = 1f; 
   public float shakeIntensity = 0.1f; 
 
+
+
 }

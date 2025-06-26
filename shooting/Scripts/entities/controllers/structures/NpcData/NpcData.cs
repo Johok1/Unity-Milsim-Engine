@@ -11,4 +11,7 @@ public class NpcData : MonoBehaviour
     public Animator animator; 
 
     public Camera aiCamera;
+
+    public AudioSource shockwaveSource; 
+
 }

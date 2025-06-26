@@ -33,5 +33,7 @@ public class PlayerData : MonoBehaviour
     
     public Transform bulletSpawn; 
 
+    public AudioSource shockwaveSource;
+
     
 }

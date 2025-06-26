@@ -55,3 +55,4 @@ MonoBehaviour:
   recoilMultiplierX: 0.0006
   recoilMultiplierY: 0.0012
   shakeIntensity: 0.05
+  shockwaveSource: {fileID: -7140023789641985795, guid: 8416ff9a5aee131408340dda3bc68ff4, type: 3}
